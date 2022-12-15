@@ -1,0 +1,19 @@
+<div class="container mt-5" >
+    <h2 class="text-center">Show Task</h2>
+    <div class="show_task_block">
+        <% for(let task of newTask) {%>
+            <div class="tasks">
+                <h2 class="title">
+                    <%= task.task_title %>
+                </h2>
+                <p class="detail">
+                    <%= task.task_content %>
+                </p>
+                <a href="/deleteTask/<%= task.id %>" class="delete_btn">
+                    <img src="https://www.svgrepo.com/show/21045/delete-button.svg" height="100%" alt="" />
+                </a>
+            </div>
+            <% } %>
+    </div>
+    <a href="/" class="task_btn">Add Task</a>
+</div>

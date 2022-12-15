@@ -1,0 +1,19 @@
+<main class="container mt-5">
+    <div class="add_task_block">
+        <h2 class="mb-3">ToDo List</h2>
+        <form action="/addTask" method="post">
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <input type="text" name="task_title" placeholder="add your task title" required/>
+                </div>
+                <div class="col-12 mb-3">
+                    <input type="text" name="task_content" placeholder="add detailed task" required/>
+                </div>
+                <div class="col-12 ">
+                    <input type="submit" class="form_btn" />
+                </div>
+            </div>
+        </form>
+        <a href="/showTask" class="task_btn">Show Task</a>
+    </div>   
+</main>
