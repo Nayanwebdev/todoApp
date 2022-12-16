@@ -1,19 +1,22 @@
 const express = require("express");
-const expressLayouts = require("express-ejs-layouts");
-const bodyParser = require("body-parser");
-const mongoose = require("mongoose");
-require('dotenv/config')
-const app = express();
-const port = process.env.PORT || 4000;
 
+const expressLayouts = require("express-ejs-layouts");
+
+const bodyParser = require("body-parser");
+
+const mongoose = require("mongoose");
+
+require('dotenv/config')
+
+const app = express();
+
+const port = process.env.PORT || 4000;
 
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.use(expressLayouts);
 mongoose.set("strictQuery", false);
-// mongoose.connect("mongodb://127.0.0.1:27017/todoDB");
-// mongoose.connect("mongodb+srv://nayan:RVpVGf94qTIn4ImC@cluster0.aidbban.mongodb.net/todoDB?retryWrites=true&w=majority");
 mongoose.connect(process.env.DB_URL_STRING);
 
 const todoSchema = mongoose.Schema({
