@@ -3,6 +3,9 @@ body {
     background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
     min-height: 100vh;
 }
+a{
+    text-decoration: none;
+}
 h2{
     color: #A683E3;
     font-size: 30px;
