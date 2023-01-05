@@ -68,6 +68,12 @@ form .form_btn:hover {
   padding-block: 20px;
   padding-inline:20px 10px;
 }
+.tasks h2{
+width: calc(100% - 40px);
+}
+.tasks p{
+ width: calc(100% - 40px);
+}
 
 .tasks:last-child {
   border-bottom: 0;
