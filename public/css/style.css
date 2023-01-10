@@ -58,6 +58,7 @@ form .form_btn:hover {
 }
 
 .show_task_block {
+    text-align: left !important;
     max-width: 600px;
     margin-inline: auto;
     background: white;
