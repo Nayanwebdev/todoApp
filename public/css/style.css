@@ -31,7 +31,7 @@ h2 {
 .navbar-nav .nav-item:hover {
   color: #fff;
 }
-
+.navbar-toggler:focus,
 a:focus-visible,
 button:focus-visible,
 button:focus,
