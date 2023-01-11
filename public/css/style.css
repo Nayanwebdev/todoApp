@@ -32,8 +32,13 @@ h2 {
   color: #fff;
 }
 
-input:focus-visible {
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+input:focus,
+.form-control:focus {
   outline: none;
+  box-shadow: none;
 }
 
 form {
