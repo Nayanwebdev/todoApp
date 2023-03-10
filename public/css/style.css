@@ -25,7 +25,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: contain;
   width: 150px;
-  height: auto;
+  height: 50px;
 }
 
 .navbar-nav .nav-item:hover {
