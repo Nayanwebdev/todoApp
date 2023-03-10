@@ -16,7 +16,7 @@ h2 {
 }
 
 .navbar {
-  background: linear-gradient(90deg, rgba(151, 97, 185, 1) 0%, rgba(47, 6, 120, 1) 77%);
+  background: linear-gradient(90deg, rgb(15 15 15) 0%, rgba(47, 6, 120, 1) 77%);
 }
 
 .navbar-brand {
