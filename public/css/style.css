@@ -20,12 +20,12 @@ h2 {
 }
 
 .navbar-brand {
-  background-image: url('./images/logo3.png');
+  background-image: url('../images/logo3.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: auto;
 }
 
 .navbar-nav .nav-item:hover {
