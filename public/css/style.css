@@ -150,6 +150,12 @@ p {
   .tasks h2 {
     font-size: 25px;
   } 
+  .nav-link i{
+  font-size: 14px;
+  }
+  .nav-link i{
+  font-size: 12px;
+  }
 
 }
 
