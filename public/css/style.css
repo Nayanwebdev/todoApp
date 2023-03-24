@@ -98,18 +98,18 @@ form .form_btn:hover {
   background: white;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
   padding-block: 20px;
-  padding-inline: 20px 10px;
+  padding-inline: 20px 40px;
   margin-bottom: 4px;
   border-radius: 12px;
 }
 
 .tasks h2 {
-  width: calc(100% - 40px);
+
   color: #504564;
 }
 
 .tasks p {
-  width: calc(100% - 40px);
+  
 }
 
 .tasks:last-child {
@@ -149,9 +149,7 @@ p {
 
   .tasks h2 {
     font-size: 25px;
-    width: calc(100% - 30px);
-  }
-  
+  } 
 
 }
 
@@ -277,14 +275,10 @@ form .input-field {
 @media (max-width: 576px) {
   .show_task_block {
     grid-template-columns: repeat(1,1fr);
-}
+  }
 }
 @media (max-width: 991px) {
    .show_task_block {
     grid-template-columns: repeat(2,1fr);
+  }
 }
-}
-
-
-
-
