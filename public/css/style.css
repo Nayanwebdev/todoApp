@@ -89,7 +89,7 @@ form .form_btn:hover {
   border-radius: 5px;
   padding-inline: 15px;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(2,1fr);
   gap: 15px;
 }
 
@@ -272,13 +272,9 @@ form .input-field {
   background-color: #0e4bf1;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 790px) {
   .show_task_block {
     grid-template-columns: repeat(1,1fr);
   }
 }
-@media (max-width: 991px) {
-   .show_task_block {
-    grid-template-columns: repeat(2,1fr);
-  }
-}
+
