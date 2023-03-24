@@ -276,5 +276,14 @@ form .input-field {
   .show_task_block {
     grid-template-columns: repeat(1,1fr);
   }
+  h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .delete_btn {
+    height: 24px;
+  }
 }
 
