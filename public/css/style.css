@@ -272,10 +272,12 @@ form .input-field {
   background-color: #0e4bf1;
 }
 
-@media (max-width: 790px) {
+@media (max-width: 767px) {
   .show_task_block {
     grid-template-columns: repeat(1,1fr);
   }
+}
+@media (max-width: 800px) {
   h2 {
     font-size: 22px;
   }
