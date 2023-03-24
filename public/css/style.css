@@ -84,10 +84,13 @@ form .form_btn:hover {
 
 .show_task_block {
   text-align: left !important;
-  max-width: 600px;
+  max-width: 1200px;
   margin-inline: auto;
   border-radius: 5px;
   padding-inline: 15px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 15px;
 }
 
 .tasks {
@@ -148,6 +151,7 @@ p {
     font-size: 25px;
     width: calc(100% - 30px);
   }
+  
 
 }
 
@@ -201,6 +205,7 @@ p {
     font-size: 24px;
     min-width: 155px;
   }
+  
 }
 
 .container {
@@ -268,3 +273,18 @@ form .input-field {
 .button-field input:hover {
   background-color: #0e4bf1;
 }
+
+@media (min-width: 576px) {
+  .show_task_block {
+    grid-template-columns: repeat(1,1fr);
+}
+}
+@media (min-width: 991px) {
+   .show_task_block {
+    grid-template-columns: repeat(2,1fr);
+}
+}
+
+
+
+
